@@ -56,6 +56,14 @@
           if (typeof diastolicbp != 'undefined') {
             p.diastolicbp = diastolicbp;
           }
+          
+            if (typeof systolicbp != 'undefined')  {
+            p.systolicbp = systolicbp;
+          }
+
+          if (typeof diastolicbp != 'undefined') {
+            p.diastolicbp = diastolicbp;
+          }
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
