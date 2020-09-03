@@ -59,7 +59,8 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
-
+          p.hdl = getQuantityValueAndUnit(hdl[0]);
+          p.ldl = getQuantityValueAndUnit(ldl[0]);
           ret.resolve(p);
         });
       } else {
@@ -81,6 +82,8 @@
       height: {value: ''},
       systolicbp: {value: ''},
       diastolicbp: {value: ''},
+      ldl: {value: ''},
+      hdl: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
     };
@@ -124,6 +127,8 @@
     $('#height').html(p.height);
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
+    $('#ldl').html(p.ldl);
+    $('#hdl').html(p.hdl);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
   };
